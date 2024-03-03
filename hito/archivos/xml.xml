@@ -1,0 +1,2101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt.xslt"?>
+<pedidos>
+    <años año="2021">
+        <trimestres trimestre="1">
+            <pedido>
+                <nombre>Luis</nombre>
+                <apellidos>Santiago Mota</apellidos>
+                <telefono>012345678</telefono>
+                <direccion>
+                    <calle>Raimundo Saporta Nº 36</calle>
+                    <ciudad>Alcala de Henares</ciudad>
+                    <codigo_postal>28801</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>luis@hotmail.com</correo_electronico>
+                <fecha_inclusion>08/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00001</numero_de_pedido>
+                    <fecha_compra>08/01/2021</fecha_compra>
+                    <fecha_entrega>08/01/2021</fecha_entrega>
+                    <total_factura>16€</total_factura>
+                    <producto>
+                        <nombre_producto>Motor DC</nombre_producto>
+                        <referencia>FA-130RA</referencia>
+                        <precio>8€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Carlos</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 15</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>carlos@gmail.com</correo_electronico>
+                <fecha_inclusion>15/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00002</numero_de_pedido>
+                    <fecha_compra>15/01/2021</fecha_compra>
+                    <fecha_entrega>17/01/2021</fecha_entrega>
+                    <total_factura>500€</total_factura>
+                    <producto>
+                        <nombre_producto>Portátil</nombre_producto>
+                        <referencia>PT2021</referencia>
+                        <precio>500€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Juan</nombre>
+                <apellidos>Gómez Fernández</apellidos>
+                <telefono>666111222</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 25</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>juan.gomez@example.com</correo_electronico>
+                <fecha_inclusion>18/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00003</numero_de_pedido>
+                    <fecha_compra>18/01/2021</fecha_compra>
+                    <fecha_entrega>20/01/2021</fecha_entrega>
+                    <total_factura>1500€</total_factura>
+                    <producto>
+                        <nombre_producto>Robot Aspirador</nombre_producto>
+                        <referencia>RA2021</referencia>
+                        <precio>500€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Marta</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>654987321</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 8</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>marta.lopez@example.com</correo_electronico>
+                <fecha_inclusion>10/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00004</numero_de_pedido>
+                    <fecha_compra>10/02/2021</fecha_compra>
+                    <fecha_entrega>12/02/2021</fecha_entrega>
+                    <total_factura>1000€</total_factura>
+                    <producto>
+                        <nombre_producto>Impresora 3D</nombre_producto>
+                        <referencia>I3D2021</referencia>
+                        <precio>500€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Andrés</nombre>
+                <apellidos>Ruiz Pérez</apellidos>
+                <telefono>612345678</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 10</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46002</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>andres.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>15/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00005</numero_de_pedido>
+                    <fecha_compra>15/02/2021</fecha_compra>
+                    <fecha_entrega>17/02/2021</fecha_entrega>
+                    <total_factura>2000€</total_factura>
+                    <producto>
+                        <nombre_producto>Drone</nombre_producto>
+                        <referencia>DRN2021</referencia>
+                        <precio>1000€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Laura</nombre>
+                <apellidos>García Sánchez</apellidos>
+                <telefono>698745632</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 5</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08001</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>laura.garcia@example.com</correo_electronico>
+                <fecha_inclusion>21/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00006</numero_de_pedido>
+                    <fecha_compra>21/02/2021</fecha_compra>
+                    <fecha_entrega>23/02/2021</fecha_entrega>
+                    <total_factura>800€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Arduino</nombre_producto>
+                        <referencia>ARD2021</referencia>
+                        <precio>200€</precio>
+                        <unidades>4</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Pablo</nombre>
+                <apellidos>Rodríguez Gómez</apellidos>
+                <telefono>635489721</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 20</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>pablo.rodriguez@example.com</correo_electronico>
+                <fecha_inclusion>25/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00007</numero_de_pedido>
+                    <fecha_compra>25/02/2021</fecha_compra>
+                    <fecha_entrega>27/02/2021</fecha_entrega>
+                    <total_factura>200€</total_factura>
+                    <producto>
+                        <nombre_producto>Raspberry Pi 4</nombre_producto>
+                        <referencia>RPI2021</referencia>
+                        <precio>100€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Ana</nombre>
+                <apellidos>Martínez González</apellidos>
+                <telefono>698745123</telefono>
+                <direccion>
+                    <calle>Av. de la Constitución Nº 45</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41004</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>ana.martinez@example.com</correo_electronico>
+                <fecha_inclusion>10/03/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00008</numero_de_pedido>
+                    <fecha_compra>10/03/2021</fecha_compra>
+                    <fecha_entrega>12/03/2021</fecha_entrega>
+                    <total_factura>900€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Robótica Educativa</nombre_producto>
+                        <referencia>ROB2021</referencia>
+                        <precio>300€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>David</nombre>
+                <apellidos>Fernández López</apellidos>
+                <telefono>678945231</telefono>
+                <direccion>
+                    <calle>Paseo de la Castellana Nº 100</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28046</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>david.fernandez@example.com</correo_electronico>
+                <fecha_inclusion>15/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00009</numero_de_pedido>
+                    <fecha_compra>15/03/2021</fecha_compra>
+                    <fecha_entrega>17/03/2021</fecha_entrega>
+                    <total_factura>1800€</total_factura>
+                    <producto>
+                        <nombre_producto>Estación de Trabajo</nombre_producto>
+                        <referencia>ET2021</referencia>
+                        <precio>600€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Lucía</nombre>
+                <apellidos>Ramírez Sánchez</apellidos>
+                <telefono>654789321</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 1</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46001</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>lucia.ramirez@example.com</correo_electronico>
+                <fecha_inclusion>20/03/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00010</numero_de_pedido>
+                    <fecha_compra>20/03/2021</fecha_compra>
+                    <fecha_entrega>22/03/2021</fecha_entrega>
+                    <total_factura>700€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Sensores</nombre_producto>
+                        <referencia>SEN2021</referencia>
+                        <precio>100€</precio>
+                        <unidades>7</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        </trimestres>
+        
+        <trimestres trimestre="2">
+            <pedido>
+                <nombre>Luis</nombre>
+                <apellidos>Santiago Mota</apellidos>
+                <telefono>012345678</telefono>
+                <direccion>
+                    <calle>Raimundo Saporta Nº 36</calle>
+                    <ciudad>Alcala de Henares</ciudad>
+                    <codigo_postal>28801</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>luis@hotmail.com</correo_electronico>
+                <fecha_inclusion>08/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00011</numero_de_pedido>
+                    <fecha_compra>05/04/2021</fecha_compra>
+                    <fecha_entrega>07/04/2021</fecha_entrega>
+                    <total_factura>80€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Arduino</nombre_producto>
+                        <referencia>ARD2021</referencia>
+                        <precio>20€</precio>
+                        <unidades>4</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Carlos</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 15</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>carlos@gmail.com</correo_electronico>
+                <fecha_inclusion>15/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00012</numero_de_pedido>
+                    <fecha_compra>06/04/2021</fecha_compra>
+                    <fecha_entrega>08/04/2021</fecha_entrega>
+                    <total_factura>150€</total_factura>
+                    <producto>
+                        <nombre_producto>Motor DC</nombre_producto>
+                        <referencia>FA-130RA</referencia>
+                        <precio>30€</precio>
+                        <unidades>5</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Juan</nombre>
+                <apellidos>Gómez Fernández</apellidos>
+                <telefono>666111222</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 25</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>juan.gomez@example.com</correo_electronico>
+                <fecha_inclusion>18/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00013</numero_de_pedido>
+                    <fecha_compra>07/04/2021</fecha_compra>
+                    <fecha_entrega>09/04/2021</fecha_entrega>
+                    <total_factura>200€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Robótica Educativa</nombre_producto>
+                        <referencia>ROB2021</referencia>
+                        <precio>200€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Marta</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>654987321</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 8</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>marta.lopez@example.com</correo_electronico>
+                <fecha_inclusion>10/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00014</numero_de_pedido>
+                    <fecha_compra>08/04/2021</fecha_compra>
+                    <fecha_entrega>10/04/2021</fecha_entrega>
+                    <total_factura>300€</total_factura>
+                    <producto>
+                        <nombre_producto>Drone</nombre_producto>
+                        <referencia>DRN2021</referencia>
+                        <precio>300€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Andrés</nombre>
+                <apellidos>Ruiz Pérez</apellidos>
+                <telefono>612345678</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 10</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46002</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>andres.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>15/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00015</numero_de_pedido>
+                    <fecha_compra>09/04/2021</fecha_compra>
+                    <fecha_entrega>11/04/2021</fecha_entrega>
+                    <total_factura>400€</total_factura>
+                    <producto>
+                        <nombre_producto>Impresora 3D</nombre_producto>
+                        <referencia>I3D2021</referencia>
+                        <precio>400€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Miguel</nombre>
+                <apellidos>Rodríguez Martínez</apellidos>
+                <telefono>654789123</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 10</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>miguel.rodriguez@example.com</correo_electronico>
+                <fecha_inclusion>17/04/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00016</numero_de_pedido>
+                    <fecha_compra>17/04/2021</fecha_compra>
+                    <fecha_entrega>19/04/2021</fecha_entrega>
+                    <total_factura>300€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Arduino</nombre_producto>
+                        <referencia>ARD2021</referencia>
+                        <precio>100€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Elena</nombre>
+                <apellidos>López García</apellidos>
+                <telefono>689745632</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 15</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41005</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>elena.lopez@example.com</correo_electronico>
+                <fecha_inclusion>18/04/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00017</numero_de_pedido>
+                    <fecha_compra>18/04/2021</fecha_compra>
+                    <fecha_entrega>20/04/2021</fecha_entrega>
+                    <total_factura>250€</total_factura>
+                    <producto>
+                        <nombre_producto>Módulo Bluetooth</nombre_producto>
+                        <referencia>BT2021</referencia>
+                        <precio>50€</precio>
+                        <unidades>5</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Javier</nombre>
+                <apellidos>Gómez Rodríguez</apellidos>
+                <telefono>632587941</telefono>
+                <direccion>
+                    <calle>Ronda de Sant Pau Nº 25</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08015</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>javier.gomez@example.com</correo_electronico>
+                <fecha_inclusion>19/04/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00018</numero_de_pedido>
+                    <fecha_compra>19/04/2021</fecha_compra>
+                    <fecha_entrega>21/04/2021</fecha_entrega>
+                    <total_factura>400€</total_factura>
+                    <producto>
+                        <nombre_producto>Motor paso a paso</nombre_producto>
+                        <referencia>MP2021</referencia>
+                        <precio>100€</precio>
+                        <unidades>4</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>María</nombre>
+                <apellidos>Fernández Martínez</apellidos>
+                <telefono>678941236</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 20</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46001</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>maria.fernandez@example.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00019</numero_de_pedido>
+                    <fecha_compra>20/04/2021</fecha_compra>
+                    <fecha_entrega>22/04/2021</fecha_entrega>
+                    <total_factura>200€</total_factura>
+                    <producto>
+                        <nombre_producto>Servomotor</nombre_producto>
+                        <referencia>SRV2021</referencia>
+                        <precio>40€</precio>
+                        <unidades>5</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Alberto</nombre>
+                <apellidos>García Ruiz</apellidos>
+                <telefono>698745632</telefono>
+                <direccion>
+                    <calle>Av. Diagonal Nº 30</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08018</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>alberto.garcia@example.com</correo_electronico>
+                <fecha_inclusion>21/04/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00020</numero_de_pedido>
+                    <fecha_compra>21/04/2021</fecha_compra>
+                    <fecha_entrega>23/04/2021</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Robótica Educativa</nombre_producto>
+                        <referencia>ROB2021</referencia>
+                        <precio>200€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        </trimestres>
+        
+        <trimestres trimestre="3">
+            <pedido>
+                <nombre>Luis</nombre>
+                <apellidos>Santiago Mota</apellidos>
+                <telefono>012345678</telefono>
+                <direccion>
+                    <calle>Raimundo Saporta Nº 36</calle>
+                    <ciudad>Alcala de Henares</ciudad>
+                    <codigo_postal>28801</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>luis@hotmail.com</correo_electronico>
+                <fecha_inclusion>08/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00021</numero_de_pedido>
+                    <fecha_compra>08/07/2021</fecha_compra>
+                    <fecha_entrega>10/07/2021</fecha_entrega>
+                    <total_factura>32€</total_factura>
+                    <producto>
+                        <nombre_producto>Servomotor</nombre_producto>
+                        <referencia>SRV2021</referencia>
+                        <precio>8€</precio>
+                        <unidades>4</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Carlos</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 15</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>carlos@gmail.com</correo_electronico>
+                <fecha_inclusion>15/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00022</numero_de_pedido>
+                    <fecha_compra>15/07/2021</fecha_compra>
+                    <fecha_entrega>17/07/2021</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Portátil</nombre_producto>
+                        <referencia>PT2021</referencia>
+                        <precio>600€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Juan</nombre>
+                <apellidos>Gómez Fernández</apellidos>
+                <telefono>666111222</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 25</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>juan.gomez@example.com</correo_electronico>
+                <fecha_inclusion>18/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00023</numero_de_pedido>
+                    <fecha_compra>18/07/2021</fecha_compra>
+                    <fecha_entrega>20/07/2021</fecha_entrega>
+                    <total_factura>1500€</total_factura>
+                    <producto>
+                        <nombre_producto>Robot Aspirador</nombre_producto>
+                        <referencia>RA2021</referencia>
+                        <precio>500€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Marta</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>654987321</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 8</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>marta.lopez@example.com</correo_electronico>
+                <fecha_inclusion>10/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00024</numero_de_pedido>
+                    <fecha_compra>10/07/2021</fecha_compra>
+                    <fecha_entrega>12/07/2021</fecha_entrega>
+                    <total_factura>1000€</total_factura>
+                    <producto>
+                        <nombre_producto>Impresora 3D</nombre_producto>
+                        <referencia>I3D2021</referencia>
+                        <precio>500€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Andrés</nombre>
+                <apellidos>Ruiz Pérez</apellidos>
+                <telefono>612345678</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 10</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46002</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>andres.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>15/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00025</numero_de_pedido>
+                    <fecha_compra>15/07/2021</fecha_compra>
+                    <fecha_entrega>17/07/2021</fecha_entrega>
+                    <total_factura>2000€</total_factura>
+                    <producto>
+                        <nombre_producto>Drone</nombre_producto>
+                        <referencia>DRN2021</referencia>
+                        <precio>1000€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Miguel</nombre>
+                <apellidos>Rodríguez Pérez</apellidos>
+                <telefono>654123789</telefono>
+                <direccion>
+                    <calle>Calle Lucero Nº 20</calle>
+                    <ciudad>Alicante</ciudad>
+                    <codigo_postal>03001</codigo_postal>
+                    <provincia>Alicante</provincia>
+                </direccion>
+                <correo_electronico>miguel.rodriguez@example.com</correo_electronico>
+                <fecha_inclusion>05/07/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00026</numero_de_pedido>
+                    <fecha_compra>05/10/2021</fecha_compra>
+                    <fecha_entrega>07/10/2021</fecha_entrega>
+                    <total_factura>300€</total_factura>
+                    <producto>
+                        <nombre_producto>Teclado</nombre_producto>
+                        <referencia>TEC2021</referencia>
+                        <precio>30€</precio>
+                        <unidades>10</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Ana</nombre>
+                <apellidos>Gutiérrez López</apellidos>
+                <telefono>689745632</telefono>
+                <direccion>
+                    <calle>Calle Real Nº 5</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41001</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>ana.gutierrez@example.com</correo_electronico>
+                <fecha_inclusion>10/07/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00027</numero_de_pedido>
+                    <fecha_compra>10/10/2021</fecha_compra>
+                    <fecha_entrega>12/10/2021</fecha_entrega>
+                    <total_factura>400€</total_factura>
+                    <producto>
+                        <nombre_producto>Monitor</nombre_producto>
+                        <referencia>MON2021</referencia>
+                        <precio>200€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Sofía</nombre>
+                <apellidos>Hernández Ruiz</apellidos>
+                <telefono>675987321</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia Nº 10</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08007</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>sofia.hernandez@example.com</correo_electronico>
+                <fecha_inclusion>15/07/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00028</numero_de_pedido>
+                    <fecha_compra>15/10/2021</fecha_compra>
+                    <fecha_entrega>17/10/2021</fecha_entrega>
+                    <total_factura>150€</total_factura>
+                    <producto>
+                        <nombre_producto>Auriculares</nombre_producto>
+                        <referencia>AUR2021</referencia>
+                        <precio>50€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>Pablo</nombre>
+                <apellidos>Alonso Martín</apellidos>
+                <telefono>698745123</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal Nº 100</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08019</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>pablo.alonso@example.com</correo_electronico>
+                <fecha_inclusion>21/07/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00029</numero_de_pedido>
+                    <fecha_compra>21/10/2021</fecha_compra>
+                    <fecha_entrega>23/10/2021</fecha_entrega>
+                    <total_factura>900€</total_factura>
+                    <producto>
+                        <nombre_producto>Smartphone</nombre_producto>
+                        <referencia>SPH2021</referencia>
+                        <precio>300€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        
+            <pedido>
+                <nombre>María</nombre>
+                <apellidos>Ruiz Gómez</apellidos>
+                <telefono>656987123</telefono>
+                <direccion>
+                    <calle>Plaza Catalunya Nº 5</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>maria.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>28/07/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00030</numero_de_pedido>
+                    <fecha_compra>28/10/2021</fecha_compra>
+                    <fecha_entrega>30/10/2021</fecha_entrega>
+                    <total_factura>1200€</total_factura>
+                    <producto>
+                        <nombre_producto>Tablet</nombre_producto>
+                        <referencia>TAB2021</referencia>
+                        <precio>400€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        </trimestres>
+        
+        <trimestres trimestre="4">
+            <pedido>
+                <nombre>Luis</nombre>
+                <apellidos>Santiago Mota</apellidos>
+                <telefono>012345678</telefono>
+                <direccion>
+                    <calle>Raimundo Saporta Nº 36</calle>
+                    <ciudad>Alcala de Henares</ciudad>
+                    <codigo_postal>28801</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>luis@hotmail.com</correo_electronico>
+                <fecha_inclusion>08/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00031</numero_de_pedido>
+                    <fecha_compra>08/10/2021</fecha_compra>
+                    <fecha_entrega>10/10/2021</fecha_entrega>
+                    <total_factura>120€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Arduino</nombre_producto>
+                        <referencia>ARD2021</referencia>
+                        <precio>20€</precio>
+                        <unidades>6</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Carlos</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 15</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>carlos@gmail.com</correo_electronico>
+                <fecha_inclusion>15/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00032</numero_de_pedido>
+                    <fecha_compra>15/10/2021</fecha_compra>
+                    <fecha_entrega>17/10/2021</fecha_entrega>
+                    <total_factura>450€</total_factura>
+                    <producto>
+                        <nombre_producto>Motor DC</nombre_producto>
+                        <referencia>FA-130RA</referencia>
+                        <precio>30€</precio>
+                        <unidades>15</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Juan</nombre>
+                <apellidos>Gómez Fernández</apellidos>
+                <telefono>666111222</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 25</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>juan.gomez@example.com</correo_electronico>
+                <fecha_inclusion>18/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00033</numero_de_pedido>
+                    <fecha_compra>18/10/2021</fecha_compra>
+                    <fecha_entrega>20/10/2021</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Robótica Educativa</nombre_producto>
+                        <referencia>ROB2021</referencia>
+                        <precio>200€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Marta</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>654987321</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 8</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>marta.lopez@example.com</correo_electronico>
+                <fecha_inclusion>10/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00034</numero_de_pedido>
+                    <fecha_compra>10/11/2021</fecha_compra>
+                    <fecha_entrega>12/11/2021</fecha_entrega>
+                    <total_factura>750€</total_factura>
+                    <producto>
+                        <nombre_producto>Impresora 3D</nombre_producto>
+                        <referencia>I3D2021</referencia>
+                        <precio>250€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Andrés</nombre>
+                <apellidos>Ruiz Pérez</apellidos>
+                <telefono>612345678</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 10</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46002</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>andres.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>15/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00035</numero_de_pedido>
+                    <fecha_compra>15/11/2021</fecha_compra>
+                    <fecha_entrega>17/11/2021</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Drone</nombre_producto>
+                        <referencia>DRN2021</referencia>
+                        <precio>300€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Roberto</nombre>
+                <apellidos>López González</apellidos>
+                <telefono>632145987</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 20</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>roberto.lopez@example.com</correo_electronico>
+                <fecha_inclusion>22/11/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00036</numero_de_pedido>
+                    <fecha_compra>22/11/2021</fecha_compra>
+                    <fecha_entrega>24/11/2021</fecha_entrega>
+                    <total_factura>300€</total_factura>
+                    <producto>
+                        <nombre_producto>Servomotor</nombre_producto>
+                        <referencia>SRV2021</referencia>
+                        <precio>100€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Marina</nombre>
+                <apellidos>Ruiz López</apellidos>
+                <telefono>698745123</telefono>
+                <direccion>
+                    <calle>Av. Diagonal Nº 30</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08018</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>marina.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>23/11/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00037</numero_de_pedido>
+                    <fecha_compra>23/11/2021</fecha_compra>
+                    <fecha_entrega>25/11/2021</fecha_entrega>
+                    <total_factura>200€</total_factura>
+                    <producto>
+                        <nombre_producto>Drone</nombre_producto>
+                        <referencia>DRN2021</referencia>
+                        <precio>100€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Lorena</nombre>
+                <apellidos>Martínez Gómez</apellidos>
+                <telefono>698745632</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 25</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>lorena.martinez@example.com</correo_electronico>
+                <fecha_inclusion>04/12/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00038</numero_de_pedido>
+                    <fecha_compra>04/12/2021</fecha_compra>
+                    <fecha_entrega>06/12/2021</fecha_entrega>
+                    <total_factura>150€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Robótica Educativa</nombre_producto>
+                        <referencia>ROB2021</referencia>
+                        <precio>50€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Adrián</nombre>
+                <apellidos>García Martínez</apellidos>
+                <telefono>632587941</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 15</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41005</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>adrian.garcia@example.com</correo_electronico>
+                <fecha_inclusion>15/12/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00039</numero_de_pedido>
+                    <fecha_compra>15/12/2021</fecha_compra>
+                    <fecha_entrega>17/12/2021</fecha_entrega>
+                    <total_factura>300€</total_factura>
+                    <producto>
+                        <nombre_producto>Módulo Bluetooth</nombre_producto>
+                        <referencia>BT2021</referencia>
+                        <precio>100€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Julia</nombre>
+                <apellidos>Pérez Sánchez</apellidos>
+                <telefono>632145698</telefono>
+                <direccion>
+                    <calle>Ronda de Sant Pau Nº 30</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08015</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>julia.perez@example.com</correo_electronico>
+                <fecha_inclusion>26/12/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00040</numero_de_pedido>
+                    <fecha_compra>26/12/2021</fecha_compra>
+                    <fecha_entrega>28/12/2021</fecha_entrega>
+                    <total_factura>200€</total_factura>
+                    <producto>
+                        <nombre_producto>Motor paso a paso</nombre_producto>
+                        <referencia>MPS2021</referencia>
+                        <precio>50€</precio>
+                        <unidades>4</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        </trimestres>
+    </años>
+    <años año="2022">
+       <trimestres trimestre="1">
+            <pedido>
+                <nombre>Luis</nombre>
+                <apellidos>Santiago Mota</apellidos>
+                <telefono>012345678</telefono>
+                <direccion>
+                    <calle>Raimundo Saporta Nº 36</calle>
+                    <ciudad>Alcala de Henares</ciudad>
+                    <codigo_postal>28801</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>luis@hotmail.com</correo_electronico>
+                <fecha_inclusion>08/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00041</numero_de_pedido>
+                    <fecha_compra>08/1/2022</fecha_compra>
+                    <fecha_entrega>10/1/2022</fecha_entrega>
+                    <total_factura>120€</total_factura>
+                    <producto>
+                        <nombre_producto>Placa base</nombre_producto>
+                        <referencia>PB2022</referencia>
+                        <precio>50€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Carlos</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 15</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>carlos@gmail.com</correo_electronico>
+                <fecha_inclusion>15/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00042</numero_de_pedido>
+                    <fecha_compra>15/1/2022</fecha_compra>
+                    <fecha_entrega>17/1/2022</fecha_entrega>
+                    <total_factura>450€</total_factura>
+                    <producto>
+                        <nombre_producto>Servomotor</nombre_producto>
+                        <referencia>SM2022</referencia>
+                        <precio>20€</precio>
+                        <unidades>10</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Juan</nombre>
+                <apellidos>Gómez Fernández</apellidos>
+                <telefono>666111222</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 25</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>juan.gomez@example.com</correo_electronico>
+                <fecha_inclusion>18/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00043</numero_de_pedido>
+                    <fecha_compra>18/1/2022</fecha_compra>
+                    <fecha_entrega>20/1/2022</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Raspberry Pi</nombre_producto>
+                        <referencia>RPI2022</referencia>
+                        <precio>40€</precio>
+                        <unidades>5</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Marta</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>654987321</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 8</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>marta.lopez@example.com</correo_electronico>
+                <fecha_inclusion>10/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00044</numero_de_pedido>
+                    <fecha_compra>10/2/2022</fecha_compra>
+                    <fecha_entrega>12/2/2022</fecha_entrega>
+                    <total_factura>750€</total_factura>
+                    <producto>
+                        <nombre_producto>Arduino Uno</nombre_producto>
+                        <referencia>AUN2022</referencia>
+                        <precio>30€</precio>
+                        <unidades>4</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Andrés</nombre>
+                <apellidos>Ruiz Pérez</apellidos>
+                <telefono>612345678</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 10</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46002</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>andres.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>15/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00045</numero_de_pedido>
+                    <fecha_compra>15/2/2022</fecha_compra>
+                    <fecha_entrega>17/2/2022</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Mini dron</nombre_producto>
+                        <referencia>MD2022</referencia>
+                        <precio>80€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Adrián</nombre>
+                <apellidos>Fernández García</apellidos>
+                <telefono>689745632</telefono>
+                <direccion>
+                    <calle>Av. Diagonal Nº 30</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08018</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>adrian.fernandez@example.com</correo_electronico>
+                <fecha_inclusion>15/01/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00046</numero_de_pedido>
+                    <fecha_compra>05/03/2022</fecha_compra>
+                    <fecha_entrega>07/03/2022</fecha_entrega>
+                    <total_factura>150€</total_factura>
+                    <producto>
+                        <nombre_producto>Motor paso a paso</nombre_producto>
+                        <referencia>MP2022</referencia>
+                        <precio>150€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Marta</nombre>
+                <apellidos>Sánchez López</apellidos>
+                <telefono>632587941</telefono>
+                <direccion>
+                    <calle>Ronda de Sant Pau Nº 25</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08015</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>marta.sanchez@example.com</correo_electronico>
+                <fecha_inclusion>15/01/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00047</numero_de_pedido>
+                    <fecha_compra>10/03/2022</fecha_compra>
+                    <fecha_entrega>12/03/2022</fecha_entrega>
+                    <total_factura>200€</total_factura>
+                    <producto>
+                        <nombre_producto>Drone</nombre_producto>
+                        <referencia>DRN2022</referencia>
+                        <precio>200€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Elena</nombre>
+                <apellidos>Ruiz Martínez</apellidos>
+                <telefono>678941236</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 20</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46001</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>elena.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>15/01/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00048</numero_de_pedido>
+                    <fecha_compra>15/03/2022</fecha_compra>
+                    <fecha_entrega>17/03/2022</fecha_entrega>
+                    <total_factura>300€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Robótica Educativa</nombre_producto>
+                        <referencia>ROB2022</referencia>
+                        <precio>300€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Carlos</nombre>
+                <apellidos>Martínez Gómez</apellidos>
+                <telefono>678941236</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 15</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41005</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>carlos.martinez@example.com</correo_electronico>
+                <fecha_inclusion>15/01/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00049</numero_de_pedido>
+                    <fecha_compra>20/03/2022</fecha_compra>
+                    <fecha_entrega>22/03/2022</fecha_entrega>
+                    <total_factura>250€</total_factura>
+                    <producto>
+                        <nombre_producto>Servomotor</nombre_producto>
+                        <referencia>SRV2022</referencia>
+                        <precio>250€</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>David</nombre>
+                <apellidos>González López</apellidos>
+                <telefono>657432189</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 20</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28001</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>david.gonzalez@example.com</correo_electronico>
+                <fecha_inclusion>25/02/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00050</numero_de_pedido>
+                    <fecha_compra>28/03/2022</fecha_compra>
+                    <fecha_entrega>29/03/2022</fecha_entrega>
+                    <total_factura>180€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de Raspberry Pi</nombre_producto>
+                        <referencia>RPI2022</referencia>
+                        <precio>60€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        </trimestres>
+        
+        <trimestres trimestre="2">
+            <pedido>
+                <nombre>Luis</nombre>
+                <apellidos>Santiago Mota</apellidos>
+                <telefono>012345678</telefono>
+                <direccion>
+                    <calle>Raimundo Saporta Nº 36</calle>
+                    <ciudad>Alcala de Henares</ciudad>
+                    <codigo_postal>28801</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>luis@hotmail.com</correo_electronico>
+                <fecha_inclusion>08/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00051</numero_de_pedido>
+                    <fecha_compra>07/04/2022</fecha_compra>
+                    <fecha_entrega>09/04/2022</fecha_entrega>
+                    <total_factura>120€</total_factura>
+                    <producto>
+                        <nombre_producto>Placa base</nombre_producto>
+                        <referencia>PB2022</referencia>
+                        <precio>50€</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Carlos</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 15</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>carlos@gmail.com</correo_electronico>
+                <fecha_inclusion>15/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00052</numero_de_pedido>
+                    <fecha_compra>13/04/2022</fecha_compra>
+                    <fecha_entrega>15/04/2022</fecha_entrega>
+                    <total_factura>450€</total_factura>
+                    <producto>
+                        <nombre_producto>Servomotor</nombre_producto>
+                        <referencia>SM2022</referencia>
+                        <precio>20€</precio>
+                        <unidades>10</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Juan</nombre>
+                <apellidos>Gómez Fernández</apellidos>
+                <telefono>666111222</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía Nº 25</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>juan.gomez@example.com</correo_electronico>
+                <fecha_inclusion>18/01/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00053</numero_de_pedido>
+                    <fecha_compra>16/04/2022</fecha_compra>
+                    <fecha_entrega>18/04/2022</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Raspberry Pi</nombre_producto>
+                        <referencia>RPI2022</referencia>
+                        <precio>40€</precio>
+                        <unidades>5</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Marta</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>654987321</telefono>
+                <direccion>
+                    <calle>Plaza de España Nº 8</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>marta.lopez@example.com</correo_electronico>
+                <fecha_inclusion>10/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00054</numero_de_pedido>
+                    <fecha_compra>07/05/2022</fecha_compra>
+                    <fecha_entrega>09/05/2022</fecha_entrega>
+                    <total_factura>750€</total_factura>
+                    <producto>
+                        <nombre_producto>Arduino Uno</nombre_producto>
+                        <referencia>AUN2022</referencia>
+                        <precio>30€</precio>
+                        <unidades>4</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Andrés</nombre>
+                <apellidos>Ruiz Pérez</apellidos>
+                <telefono>612345678</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 10</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46002</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>andres.ruiz@example.com</correo_electronico>
+                <fecha_inclusion>15/02/2021</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00055</numero_de_pedido>
+                    <fecha_compra>12/05/2022</fecha_compra>
+                    <fecha_entrega>14/05/2022</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <producto>
+                        <nombre_producto>Mini dron</nombre_producto>
+                        <referencia>MD2022</referencia>
+                        <precio>80€</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+            
+            <pedido>
+                <nombre>Laura</nombre>
+                <apellidos>Martínez López</apellidos>
+                <telefono>654321987</telefono>
+                <direccion>
+                    <calle>Calle del Sol Nº 20</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46001</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>laura.martinez@example.com</correo_electronico>
+                <fecha_inclusion>01/06/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00056</numero_de_pedido>
+                    <fecha_compra>01/06/2022</fecha_compra>
+                    <fecha_entrega>03/06/2022</fecha_entrega>
+                    <total_factura>180€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de sensores</nombre_producto>
+                        <referencia>KITSEN2022</referencia>
+                        <precio>30€</precio>
+                        <unidades>6</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>David</nombre>
+                <apellidos>Gutiérrez Rodríguez</apellidos>
+                <telefono>745896231</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 5</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28001</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo_electronico>david.gutierrez@example.com</correo_electronico>
+                <fecha_inclusion>07/06/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00057</numero_de_pedido>
+                    <fecha_compra>07/06/2022</fecha_compra>
+                    <fecha_entrega>09/06/2022</fecha_entrega>
+                    <total_factura>300€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de electrónica básica</nombre_producto>
+                        <referencia>KITELEC2022</referencia>
+                        <precio>50€</precio>
+                        <unidades>6</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>María</nombre>
+                <apellidos>Sánchez Pérez</apellidos>
+                <telefono>987123654</telefono>
+                <direccion>
+                    <calle>Avda. de la Libertad Nº 12</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41001</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo_electronico>maria.sanchez@example.com</correo_electronico>
+                <fecha_inclusion>09/06/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00058</numero_de_pedido>
+                    <fecha_compra>09/06/2022</fecha_compra>
+                    <fecha_entrega>11/06/2022</fecha_entrega>
+                    <total_factura>420€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de robótica avanzada</nombre_producto>
+                        <referencia>KITROB2022</referencia>
+                        <precio>70€</precio>
+                        <unidades>6</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Sofía</nombre>
+                <apellidos>Martínez Rodríguez</apellidos>
+                <telefono>632584971</telefono>
+                <direccion>
+                    <calle>Calle Real Nº 8</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08001</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo_electronico>sofia.martinez@example.com</correo_electronico>
+                <fecha_inclusion>12/06/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00059</numero_de_pedido>
+                    <fecha_compra>12/06/2022</fecha_compra>
+                    <fecha_entrega>14/06/2022</fecha_entrega>
+                    <total_factura>250€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de impresión 3D</nombre_producto>
+                        <referencia>KIT3D2022</referencia>
+                        <precio>50€</precio>
+                        <unidades>5</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+
+            <pedido>
+                <nombre>Javier</nombre>
+                <apellidos>González Martínez</apellidos>
+                <telefono>698745236</telefono>
+                <direccion>
+                    <calle>Calle Mayor Nº 3</calle>
+                    <ciudad>Valencia</ciudad>
+                    <codigo_postal>46003</codigo_postal>
+                    <provincia>Valencia</provincia>
+                </direccion>
+                <correo_electronico>javier.gonzalez@example.com</correo_electronico>
+                <fecha_inclusion>17/06/2022</fecha_inclusion>
+                <detalle>
+                    <numero_de_pedido>00060</numero_de_pedido>
+                    <fecha_compra>17/06/2022</fecha_compra>
+                    <fecha_entrega>20/06/2022</fecha_entrega>
+                    <total_factura>180€</total_factura>
+                    <producto>
+                        <nombre_producto>Kit de sensores</nombre_producto>
+                        <referencia>KITSEN2022</referencia>
+                        <precio>30€</precio>
+                        <unidades>6</unidades>
+                    </producto>
+                </detalle>
+            </pedido>
+        </trimestres>
+       <trimestres trimestre="3">
+          <pedido>
+            <nombre>Luis</nombre>
+            <apellidos>Santiago Mota</apellidos>
+            <telefono>012345678</telefono>
+            <direccion>
+                <calle>Raimundo Saporta Nº 36</calle>
+                <ciudad>Alcala de Henares</ciudad>
+                <codigo_postal>28801</codigo_postal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correo_electronico>luis@hotmail.com</correo_electronico>
+            <fecha_inclusion>08/01/2021</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00061</numero_de_pedido>
+                <fecha_compra>04/07/2022</fecha_compra>
+                <fecha_entrega>07/07/2022</fecha_entrega>
+                <total_factura>120€</total_factura>
+                <producto>
+                    <nombre_producto>Arduino Uno</nombre_producto>
+                    <referencia>AUN2061</referencia>
+                    <precio>30€</precio>
+                    <unidades>4</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Carlos</nombre>
+            <apellidos>García Pérez</apellidos>
+            <telefono>987654321</telefono>
+            <direccion>
+                <calle>Calle Mayor Nº 15</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigo_postal>08002</codigo_postal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correo_electronico>carlos@gmail.com</correo_electronico>
+            <fecha_inclusion>15/01/2021</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00062</numero_de_pedido>
+                <fecha_compra>11/07/2022</fecha_compra>
+                <fecha_entrega>13/07/2022</fecha_entrega>
+                <total_factura>450€</total_factura>
+                <producto>
+                    <nombre_producto>Mini dron</nombre_producto>
+                    <referencia>MD2062</referencia>
+                    <precio>80€</precio>
+                    <unidades>3</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Juan</nombre>
+            <apellidos>Gómez Fernández</apellidos>
+            <telefono>666111222</telefono>
+            <direccion>
+                <calle>Calle Gran Vía Nº 25</calle>
+                <ciudad>Madrid</ciudad>
+                <codigo_postal>28013</codigo_postal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correo_electronico>juan.gomez@example.com</correo_electronico>
+            <fecha_inclusion>18/01/2021</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00063</numero_de_pedido>
+                <fecha_compra>14/07/2022</fecha_compra>
+                <fecha_entrega>17/07/2022</fecha_entrega>
+                <total_factura>600€</total_factura>
+                <producto>
+                    <nombre_producto>Placa base</nombre_producto>
+                    <referencia>PB2063</referencia>
+                    <precio>50€</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Marta</nombre>
+            <apellidos>López Martínez</apellidos>
+            <telefono>654987321</telefono>
+            <direccion>
+                <calle>Plaza de España Nº 8</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigo_postal>41013</codigo_postal>
+                <provincia>Sevilla</provincia>
+            </direccion>
+            <correo_electronico>marta.lopez@example.com</correo_electronico>
+            <fecha_inclusion>10/02/2021</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00064</numero_de_pedido>
+                <fecha_compra>02/08/2022</fecha_compra>
+                <fecha_entrega>04/08/2022</fecha_entrega>
+                <total_factura>750€</total_factura>
+                <producto>
+                    <nombre_producto>Raspberry Pi</nombre_producto>
+                    <referencia>RPI2064</referencia>
+                    <precio>40€</precio>
+                    <unidades>5</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Andrés</nombre>
+            <apellidos>Ruiz Pérez</apellidos>
+            <telefono>612345678</telefono>
+            <direccion>
+                <calle>Calle Mayor Nº 10</calle>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46002</codigo_postal>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <correo_electronico>andres.ruiz@example.com</correo_electronico>
+            <fecha_inclusion>15/02/2021</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00065</numero_de_pedido>
+                <fecha_compra>05/08/2022</fecha_compra>
+                <fecha_entrega>07/08/2022</fecha_entrega>
+                <total_factura>600€</total_factura>
+                <producto>
+                    <nombre_producto>Servomotor</nombre_producto>
+                    <referencia>SM2065</referencia>
+                    <precio>20€</precio>
+                    <unidades>10</unidades>
+                </producto>
+            </detalle>
+        </pedido>  
+       
+        <pedido>
+            <nombre>Sofía</nombre>
+            <apellidos>Hernández Martínez</apellidos>
+            <telefono>654123789</telefono>
+            <direccion>
+                <calle>Calle Mayor Nº 20</calle>
+                <ciudad>Madrid</ciudad>
+                <codigo_postal>28001</codigo_postal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correo_electronico>sofia.hernandez@example.com</correo_electronico>
+            <fecha_inclusion>09/08/2022</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00066</numero_de_pedido>
+                <fecha_compra>09/08/2022</fecha_compra>
+                <fecha_entrega>11/08/2022</fecha_entrega>
+                <total_factura>300€</total_factura>
+                <producto>
+                    <nombre_producto>Kit de sensores</nombre_producto>
+                    <referencia>KSE2066</referencia>
+                    <precio>60€</precio>
+                    <unidades>5</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Diego</nombre>
+            <apellidos>López Rodríguez</apellidos>
+            <telefono>678456123</telefono>
+            <direccion>
+                <calle>Avenida Diagonal Nº 50</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigo_postal>08001</codigo_postal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correo_electronico>diego.lopez@example.com</correo_electronico>
+            <fecha_inclusion>12/08/2022</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00067</numero_de_pedido>
+                <fecha_compra>12/08/2022</fecha_compra>
+                <fecha_entrega>14/08/2022</fecha_entrega>
+                <total_factura>400€</total_factura>
+                <producto>
+                    <nombre_producto>Kit de componentes electrónicos</nombre_producto>
+                    <referencia>KCE2067</referencia>
+                    <precio>80€</precio>
+                    <unidades>5</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Lucía</nombre>
+            <apellidos>Rodríguez García</apellidos>
+            <telefono>745896321</telefono>
+            <direccion>
+                <calle>Paseo de la Castellana Nº 100</calle>
+                <ciudad>Madrid</ciudad>
+                <codigo_postal>28046</codigo_postal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correo_electronico>lucia.rodriguez@example.com</correo_electronico>
+            <fecha_inclusion>16/08/2022</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00068</numero_de_pedido>
+                <fecha_compra>16/08/2022</fecha_compra>
+                <fecha_entrega>18/08/2022</fecha_entrega>
+                <total_factura>200€</total_factura>
+                <producto>
+                    <nombre_producto>Placa Arduino Nano</nombre_producto>
+                    <referencia>PAN2068</referencia>
+                    <precio>40€</precio>
+                    <unidades>5</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Paula</nombre>
+            <apellidos>García Martínez</apellidos>
+            <telefono>785412369</telefono>
+            <direccion>
+                <calle>Plaza de la Merced Nº 5</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigo_postal>41001</codigo_postal>
+                <provincia>Sevilla</provincia>
+            </direccion>
+            <correo_electronico>paula.garcia@example.com</correo_electronico>
+            <fecha_inclusion>25/08/2022</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00069</numero_de_pedido>
+                <fecha_compra>25/08/2022</fecha_compra>
+                <fecha_entrega>27/08/2022</fecha_entrega>
+                <total_factura>150€</total_factura>
+                <producto>
+                    <nombre_producto>Sensor de temperatura</nombre_producto>
+                    <referencia>ST2069</referencia>
+                    <precio>30€</precio>
+                    <unidades>5</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+
+        <pedido>
+            <nombre>Marco</nombre>
+            <apellidos>Ramírez López</apellidos>
+            <telefono>632587941</telefono>
+            <direccion>
+                <calle>Ronda de Valencia Nº 15</calle>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46001</codigo_postal>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <correo_electronico>marco.ramirez@example.com</correo_electronico>
+            <fecha_inclusion>10/09/2022</fecha_inclusion>
+            <detalle>
+                <numero_de_pedido>00070</numero_de_pedido>
+                <fecha_compra>10/09/2022</fecha_compra>
+                <fecha_entrega>13/09/2022</fecha_entrega>
+                <total_factura>500€</total_factura>
+                <producto>
+                    <nombre_producto>Kit de robótica avanzada</nombre_producto>
+                    <referencia>KRA2070</referencia>
+                    <precio>100€</precio>
+                    <unidades>5</unidades>
+                </producto>
+            </detalle>
+        </pedido>
+       </trimestres>
+
+       <trimestres trimestre="4">
+           <pedido>
+               <nombre>Luis</nombre>
+               <apellidos>Santiago Mota</apellidos>
+               <telefono>012345678</telefono>
+               <direccion>
+                   <calle>Raimundo Saporta Nº 36</calle>
+                   <ciudad>Alcala de Henares</ciudad>
+                   <codigo_postal>28801</codigo_postal>
+                   <provincia>Madrid</provincia>
+               </direccion>
+               <correo_electronico>luis@hotmail.com</correo_electronico>
+               <fecha_inclusion>08/01/2021</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00071</numero_de_pedido>
+                   <fecha_compra>04/10/2022</fecha_compra>
+                   <fecha_entrega>07/10/2022</fecha_entrega>
+                   <total_factura>120€</total_factura>
+                   <producto>
+                       <nombre_producto>Arduino Uno</nombre_producto>
+                       <referencia>AUN2071</referencia>
+                       <precio>30€</precio>
+                       <unidades>4</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>Carlos</nombre>
+               <apellidos>García Pérez</apellidos>
+               <telefono>987654321</telefono>
+               <direccion>
+                   <calle>Calle Mayor Nº 15</calle>
+                   <ciudad>Barcelona</ciudad>
+                   <codigo_postal>08002</codigo_postal>
+                   <provincia>Barcelona</provincia>
+               </direccion>
+               <correo_electronico>carlos@gmail.com</correo_electronico>
+               <fecha_inclusion>15/01/2021</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00072</numero_de_pedido>
+                   <fecha_compra>11/10/2022</fecha_compra>
+                   <fecha_entrega>13/10/2022</fecha_entrega>
+                   <total_factura>450€</total_factura>
+                   <producto>
+                       <nombre_producto>Mini dron</nombre_producto>
+                       <referencia>MD2072</referencia>
+                       <precio>80€</precio>
+                       <unidades>3</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>Juan</nombre>
+               <apellidos>Gómez Fernández</apellidos>
+               <telefono>666111222</telefono>
+               <direccion>
+                   <calle>Calle Gran Vía Nº 25</calle>
+                   <ciudad>Madrid</ciudad>
+                   <codigo_postal>28013</codigo_postal>
+                   <provincia>Madrid</provincia>
+               </direccion>
+               <correo_electronico>juan.gomez@example.com</correo_electronico>
+               <fecha_inclusion>18/01/2021</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00073</numero_de_pedido>
+                   <fecha_compra>14/10/2022</fecha_compra>
+                   <fecha_entrega>17/10/2022</fecha_entrega>
+                   <total_factura>600€</total_factura>
+                   <producto>
+                       <nombre_producto>Placa base</nombre_producto>
+                       <referencia>PB2073</referencia>
+                       <precio>50€</precio>
+                       <unidades>2</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>Marta</nombre>
+               <apellidos>López Martínez</apellidos>
+               <telefono>654987321</telefono>
+               <direccion>
+                   <calle>Plaza de España Nº 8</calle>
+                   <ciudad>Sevilla</ciudad>
+                   <codigo_postal>41013</codigo_postal>
+                   <provincia>Sevilla</provincia>
+               </direccion>
+               <correo_electronico>marta.lopez@example.com</correo_electronico>
+               <fecha_inclusion>10/02/2021</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00074</numero_de_pedido>
+                   <fecha_compra>02/11/2022</fecha_compra>
+                   <fecha_entrega>04/11/2022</fecha_entrega>
+                   <total_factura>750€</total_factura>
+                   <producto>
+                       <nombre_producto>Raspberry Pi</nombre_producto>
+                       <referencia>RPI2074</referencia>
+                       <precio>40€</precio>
+                       <unidades>5</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>Andrés</nombre>
+               <apellidos>Ruiz Pérez</apellidos>
+               <telefono>612345678</telefono>
+               <direccion>
+                   <calle>Calle Mayor Nº 10</calle>
+                   <ciudad>Valencia</ciudad>
+                   <codigo_postal>46002</codigo_postal>
+                   <provincia>Valencia</provincia>
+               </direccion>
+               <correo_electronico>andres.ruiz@example.com</correo_electronico>
+               <fecha_inclusion>15/02/2021</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00075</numero_de_pedido>
+                   <fecha_compra>05/11/2022</fecha_compra>
+                   <fecha_entrega>07/11/2022</fecha_entrega>
+                   <total_factura>600€</total_factura>
+                   <producto>
+                       <nombre_producto>Servomotor</nombre_producto>
+                       <referencia>SM2075</referencia>
+                       <precio>20€</precio>
+                       <unidades>10</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+        
+           <pedido>
+               <nombre>Javier</nombre>
+               <apellidos>López Rodríguez</apellidos>
+               <telefono>601234567</telefono>
+               <direccion>
+                   <calle>Calle Mayor Nº 20</calle>
+                   <ciudad>Madrid</ciudad>
+                   <codigo_postal>28001</codigo_postal>
+                   <provincia>Madrid</provincia>
+               </direccion>
+               <correo_electronico>javier.lopez@example.com</correo_electronico>
+               <fecha_inclusion>03/10/2022</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00076</numero_de_pedido>
+                   <fecha_compra>05/10/2022</fecha_compra>
+                   <fecha_entrega>07/10/2022</fecha_entrega>
+                   <total_factura>200€</total_factura>
+                   <producto>
+                       <nombre_producto>Arduino Nano</nombre_producto>
+                       <referencia>AN2076</referencia>
+                       <precio>10€</precio>
+                       <unidades>10</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>María</nombre>
+               <apellidos>González Pérez</apellidos>
+               <telefono>611223344</telefono>
+               <direccion>
+                   <calle>Calle San José Nº 8</calle>
+                   <ciudad>Barcelona</ciudad>
+                   <codigo_postal>08005</codigo_postal>
+                   <provincia>Barcelona</provincia>
+               </direccion>
+               <correo_electronico>maria.gonzalez@example.com</correo_electronico>
+               <fecha_inclusion>12/10/2022</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00077</numero_de_pedido>
+                   <fecha_compra>15/10/2022</fecha_compra>
+                   <fecha_entrega>18/10/2022</fecha_entrega>
+                   <total_factura>150€</total_factura>
+                   <producto>
+                       <nombre_producto>Sensor de temperatura</nombre_producto>
+                       <referencia>ST2077</referencia>
+                       <precio>15€</precio>
+                       <unidades>10</unidades>
+                    </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>David</nombre>
+               <apellidos>Fernández García</apellidos>
+               <telefono>622334455</telefono>
+               <direccion>
+                   <calle>Calle Mayor Nº 10</calle>
+                   <ciudad>Valencia</ciudad>
+                   <codigo_postal>46001</codigo_postal>
+                   <provincia>Valencia</provincia>
+              </direccion>
+               <correo_electronico>david.fernandez@example.com</correo_electronico>
+               <fecha_inclusion>20/10/2022</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00078</numero_de_pedido>
+                   <fecha_compra>22/10/2022</fecha_compra>
+                   <fecha_entrega>25/10/2022</fecha_entrega>
+                   <total_factura>300€</total_factura>
+                   <producto>
+                       <nombre_producto>Kit de robótica</nombre_producto>
+                       <referencia>KR2078</referencia>
+                       <precio>50€</precio>
+                       <unidades>6</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>Elena</nombre>
+               <apellidos>Martínez López</apellidos>
+               <telefono>633445566</telefono>
+               <direccion>
+                   <calle>Plaza España Nº 15</calle>
+                   <ciudad>Sevilla</ciudad>
+                   <codigo_postal>41000</codigo_postal>
+                   <provincia>Sevilla</provincia>
+               </direccion>
+               <correo_electronico>elena.martinez@example.com</correo_electronico>
+               <fecha_inclusion>03/11/2022</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00079</numero_de_pedido>
+                   <fecha_compra>05/11/2022</fecha_compra>
+                   <fecha_entrega>08/11/2022</fecha_entrega>
+                   <total_factura>250€</total_factura>
+                   <producto>
+                       <nombre_producto>Motor paso a paso</nombre_producto>
+                       <referencia>MP2079</referencia>
+                       <precio>25€</precio>
+                       <unidades>10</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+
+           <pedido>
+               <nombre>Paula</nombre>
+               <apellidos>Rodríguez Fernández</apellidos>
+               <telefono>644556677</telefono>
+               <direccion>
+                   <calle>Calle Mayor Nº 5</calle>
+                   <ciudad>Madrid</ciudad>
+                   <codigo_postal>28002</codigo_postal>
+                   <provincia>Madrid</provincia>
+               </direccion>
+               <correo_electronico>paula.rodriguez@example.com</correo_electronico>
+               <fecha_inclusion>27/12/2022</fecha_inclusion>
+               <detalle>
+                   <numero_de_pedido>00080</numero_de_pedido>
+                   <fecha_compra>29/12/2022</fecha_compra>
+                   <fecha_entrega>31/12/2022</fecha_entrega>
+                   <total_factura>180€</total_factura>
+                   <producto>
+                       <nombre_producto>Sensor ultrasónico</nombre_producto>
+                       <referencia>SU2080</referencia>
+                       <precio>18€</precio>
+                       <unidades>10</unidades>
+                   </producto>
+               </detalle>
+           </pedido>
+        </trimestres>
+    </años>
+</pedidos>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturación XML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Archivos/estilo.CSS">
+    <link rel="icon" type="image/jpg" href="Archivos/Logo.jpg">
+</head>
+<body class="vh-100 overflow-hidden">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+            <a class="navbar-brand fs-4" href="#">
+                <img src="Archivos/Logo Invertido.jpg" alt="logo" width="30px">
+            </a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body justify-content-center align-items-center">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="#">Pedidos</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="Clientes.html">Clientes</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="factura.html">Factura</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="Trimestre1-21_Trimestre4-22.html">Trimestres</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                    <div class="nav-item dropdown d-flex justify-content-center align-items-center">
+                        <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Webgrafía
+                        </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://getbootstrap.com/" target="_blank"><img src="Archivos/Bootstrap_logo.svg.png" alt="logo" width="25px"> Bootstrap</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/" target="_blank"><img src="Archivos/W3Schools_logo.svg.png" alt="logo" width="25px">  W3school</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/" target="_blank"><img src="Archivos/Youtube.png" alt="logo" width="25px">  Youtube</a></li>
+                          </ul>    
+                    </div>
+                </div>
+            </div>
+        </div> 
+            
+    </nav>
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-6 mt-5">
+            
+        </div>
+      </div>  
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="pie col-12">
+                    <p>&copy Marzo 2024 Iker Contreras Esquer - Todos los derechos reservados</p>
+                </div>
+
+            </div>
+
+        </div>    
+    </footer>
+    <div class="tabla" id="2">
+    <h1>Información de Pedidos</h1>
+    <table border="1">
+      <tr>
+        <th>Número de Pedido</th>
+        <th>Fecha de Compra</th>
+        <th>Fecha de Entrega</th>
+      </tr>
+      <tr>
+        <td>00001</td>
+        <td>08/01/2021</td>
+        <td>08/01/2021</td>
+      </tr>
+      <tr>
+        <td>00002</td>
+        <td>15/01/2021</td>
+        <td>17/01/2021</td>
+      </tr>
+      <tr>
+        <td>00003</td>
+        <td>18/01/2021</td>
+        <td>20/01/2021</td>
+      </tr>
+      <tr>
+        <td>00004</td>
+        <td>10/02/2021</td>
+        <td>12/02/2021</td>
+      </tr>
+      <tr>
+        <td>00005</td>
+        <td>15/02/2021</td>
+        <td>17/02/2021</td>
+      </tr>
+      <tr>
+        <td>00006</td>
+        <td>21/02/2021</td>
+        <td>23/02/2021</td>
+      </tr>
+      <tr>
+        <td>00007</td>
+        <td>25/02/2021</td>
+        <td>27/02/2021</td>
+      </tr>
+      <tr>
+        <td>00008</td>
+        <td>10/03/2021</td>
+        <td>12/03/2021</td>
+      </tr>
+      <tr>
+        <td>00009</td>
+        <td>15/03/2021</td>
+        <td>17/03/2021</td>
+      </tr>
+      <tr>
+        <td>00010</td>
+        <td>20/03/2021</td>
+        <td>22/03/2021</td>
+      </tr>
+      <tr>
+        <td>00011</td>
+        <td>05/04/2021</td>
+        <td>07/04/2021</td>
+      </tr>
+      <tr>
+        <td>00012</td>
+        <td>06/04/2021</td>
+        <td>08/04/2021</td>
+      </tr>
+      <tr>
+        <td>00013</td>
+        <td>07/04/2021</td>
+        <td>09/04/2021</td>
+      </tr>
+      <tr>
+        <td>00014</td>
+        <td>08/04/2021</td>
+        <td>10/04/2021</td>
+      </tr>
+      <tr>
+        <td>00015</td>
+        <td>09/04/2021</td>
+        <td>11/04/2021</td>
+      </tr>
+      <tr>
+        <td>00016</td>
+        <td>17/04/2021</td>
+        <td>19/04/2021</td>
+      </tr>
+      <tr>
+        <td>00017</td>
+        <td>18/04/2021</td>
+        <td>20/04/2021</td>
+      </tr>
+      <tr>
+        <td>00018</td>
+        <td>19/04/2021</td>
+        <td>21/04/2021</td>
+      </tr>
+      <tr>
+        <td>00019</td>
+        <td>20/04/2021</td>
+        <td>22/04/2021</td>
+      </tr>
+      <tr>
+        <td>00020</td>
+        <td>21/04/2021</td>
+        <td>23/04/2021</td>
+      </tr>
+      <tr>
+        <td>00021</td>
+        <td>08/07/2021</td>
+        <td>10/07/2021</td>
+      </tr>
+      <tr>
+        <td>00022</td>
+        <td>15/07/2021</td>
+        <td>17/07/2021</td>
+      </tr>
+      <tr>
+        <td>00023</td>
+        <td>18/07/2021</td>
+        <td>20/07/2021</td>
+      </tr>
+      <tr>
+        <td>00024</td>
+        <td>10/07/2021</td>
+        <td>12/07/2021</td>
+      </tr>
+      <tr>
+        <td>00025</td>
+        <td>15/07/2021</td>
+        <td>17/07/2021</td>
+      </tr>
+      <tr>
+        <td>00026</td>
+        <td>05/10/2021</td>
+        <td>07/10/2021</td>
+      </tr>
+      <tr>
+        <td>00027</td>
+        <td>10/10/2021</td>
+        <td>12/10/2021</td>
+      </tr>
+      <tr>
+        <td>00028</td>
+        <td>15/10/2021</td>
+        <td>17/10/2021</td>
+      </tr>
+      <tr>
+        <td>00029</td>
+        <td>21/10/2021</td>
+        <td>23/10/2021</td>
+      </tr>
+      <tr>
+        <td>00030</td>
+        <td>28/10/2021</td>
+        <td>30/10/2021</td>
+      </tr>
+      <tr>
+        <td>00031</td>
+        <td>08/10/2021</td>
+        <td>10/10/2021</td>
+      </tr>
+      <tr>
+        <td>00032</td>
+        <td>15/10/2021</td>
+        <td>17/10/2021</td>
+      </tr>
+      <tr>
+        <td>00033</td>
+        <td>18/10/2021</td>
+        <td>20/10/2021</td>
+      </tr>
+      <tr>
+        <td>00034</td>
+        <td>10/11/2021</td>
+        <td>12/11/2021</td>
+      </tr>
+      <tr>
+        <td>00035</td>
+        <td>15/11/2021</td>
+        <td>17/11/2021</td>
+      </tr>
+      <tr>
+        <td>00036</td>
+        <td>22/11/2021</td>
+        <td>24/11/2021</td>
+      </tr>
+      <tr>
+        <td>00037</td>
+        <td>23/11/2021</td>
+        <td>25/11/2021</td>
+      </tr>
+      <tr>
+        <td>00038</td>
+        <td>04/12/2021</td>
+        <td>06/12/2021</td>
+      </tr>
+      <tr>
+        <td>00039</td>
+        <td>15/12/2021</td>
+        <td>17/12/2021</td>
+      </tr>
+      <tr>
+        <td>00040</td>
+        <td>26/12/2021</td>
+        <td>28/12/2021</td>
+      </tr>
+      <tr>
+        <td>00041</td>
+        <td>08/1/2022</td>
+        <td>10/1/2022</td>
+      </tr>
+      <tr>
+        <td>00042</td>
+        <td>15/1/2022</td>
+        <td>17/1/2022</td>
+      </tr>
+      <tr>
+        <td>00043</td>
+        <td>18/1/2022</td>
+        <td>20/1/2022</td>
+      </tr>
+      <tr>
+        <td>00044</td>
+        <td>10/2/2022</td>
+        <td>12/2/2022</td>
+      </tr>
+      <tr>
+        <td>00045</td>
+        <td>15/2/2022</td>
+        <td>17/2/2022</td>
+      </tr>
+      <tr>
+        <td>00046</td>
+        <td>05/03/2022</td>
+        <td>07/03/2022</td>
+      </tr>
+      <tr>
+        <td>00047</td>
+        <td>10/03/2022</td>
+        <td>12/03/2022</td>
+      </tr>
+      <tr>
+        <td>00048</td>
+        <td>15/03/2022</td>
+        <td>17/03/2022</td>
+      </tr>
+      <tr>
+        <td>00049</td>
+        <td>20/03/2022</td>
+        <td>22/03/2022</td>
+      </tr>
+      <tr>
+        <td>00050</td>
+        <td>28/03/2022</td>
+        <td>29/03/2022</td>
+      </tr>
+      <tr>
+        <td>00051</td>
+        <td>07/04/2022</td>
+        <td>09/04/2022</td>
+      </tr>
+      <tr>
+        <td>00052</td>
+        <td>13/04/2022</td>
+        <td>15/04/2022</td>
+      </tr>
+      <tr>
+        <td>00053</td>
+        <td>16/04/2022</td>
+        <td>18/04/2022</td>
+      </tr>
+      <tr>
+        <td>00054</td>
+        <td>07/05/2022</td>
+        <td>09/05/2022</td>
+      </tr>
+      <tr>
+        <td>00055</td>
+        <td>12/05/2022</td>
+        <td>14/05/2022</td>
+      </tr>
+      <tr>
+        <td>00056</td>
+        <td>01/06/2022</td>
+        <td>03/06/2022</td>
+      </tr>
+      <tr>
+        <td>00057</td>
+        <td>07/06/2022</td>
+        <td>09/06/2022</td>
+      </tr>
+      <tr>
+        <td>00058</td>
+        <td>09/06/2022</td>
+        <td>11/06/2022</td>
+      </tr>
+      <tr>
+        <td>00059</td>
+        <td>12/06/2022</td>
+        <td>14/06/2022</td>
+      </tr>
+      <tr>
+        <td>00060</td>
+        <td>17/06/2022</td>
+        <td>20/06/2022</td>
+      </tr>
+      <tr>
+        <td>00061</td>
+        <td>04/07/2022</td>
+        <td>07/07/2022</td>
+      </tr>
+      <tr>
+        <td>00062</td>
+        <td>11/07/2022</td>
+        <td>13/07/2022</td>
+      </tr>
+      <tr>
+        <td>00063</td>
+        <td>14/07/2022</td>
+        <td>17/07/2022</td>
+      </tr>
+      <tr>
+        <td>00064</td>
+        <td>02/08/2022</td>
+        <td>04/08/2022</td>
+      </tr>
+      <tr>
+        <td>00065</td>
+        <td>05/08/2022</td>
+        <td>07/08/2022</td>
+      </tr>
+      <tr>
+        <td>00066</td>
+        <td>09/08/2022</td>
+        <td>11/08/2022</td>
+      </tr>
+      <tr>
+        <td>00067</td>
+        <td>12/08/2022</td>
+        <td>14/08/2022</td>
+      </tr>
+      <tr>
+        <td>00068</td>
+        <td>16/08/2022</td>
+        <td>18/08/2022</td>
+      </tr>
+      <tr>
+        <td>00069</td>
+        <td>25/08/2022</td>
+        <td>27/08/2022</td>
+      </tr>
+      <tr>
+        <td>00070</td>
+        <td>10/09/2022</td>
+        <td>13/09/2022</td>
+      </tr>
+      <tr>
+        <td>00071</td>
+        <td>04/10/2022</td>
+        <td>07/10/2022</td>
+      </tr>
+      <tr>
+        <td>00072</td>
+        <td>11/10/2022</td>
+        <td>13/10/2022</td>
+      </tr>
+      <tr>
+        <td>00073</td>
+        <td>14/10/2022</td>
+        <td>17/10/2022</td>
+      </tr>
+      <tr>
+        <td>00074</td>
+        <td>02/11/2022</td>
+        <td>04/11/2022</td>
+      </tr>
+      <tr>
+        <td>00075</td>
+        <td>05/11/2022</td>
+        <td>07/11/2022</td>
+      </tr>
+      <tr>
+        <td>00076</td>
+        <td>05/10/2022</td>
+        <td>07/10/2022</td>
+      </tr>
+      <tr>
+        <td>00077</td>
+        <td>15/10/2022</td>
+        <td>18/10/2022</td>
+      </tr>
+      <tr>
+        <td>00078</td>
+        <td>22/10/2022</td>
+        <td>25/10/2022</td>
+      </tr>
+      <tr>
+        <td>00079</td>
+        <td>05/11/2022</td>
+        <td>08/11/2022</td>
+      </tr>
+      <tr>
+        <td>00080</td>
+        <td>29/12/2022</td>
+        <td>31/12/2022</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
